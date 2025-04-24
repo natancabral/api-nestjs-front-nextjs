@@ -19,14 +19,15 @@
 $ sudo docker compose up
 
 # UNIX
-$ chmod +x ./setup.sh
-$ chmod +x ./nestjs/setup.sh
+$ sudo chmod +x ./setup.sh
+$ sudo chmod +x ./nestjs/setup.sh
 
 # MacOS
-$ chmod -R 777 ./setup.sh
-$ chmod -R 777 ./nestjs/setup.sh
+$ sudo chmod -R 777 ./setup.sh
+$ sudo chmod -R 777 ./nestjs/setup.sh
 
 # Start
+$ cd ./nestjs
 $ ./setup.sh
 ```
 
@@ -40,9 +41,9 @@ $ sudo docker compose up
 
 ```sh
 # .nvmrc file
+$ cd ./nestjs
 $ nvm use
 ```
-
 
 ### Start
 
