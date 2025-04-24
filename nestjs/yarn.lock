@@ -1327,7 +1327,7 @@
 
 "@mikro-orm/cli@^6.4.13":
   version "6.4.13"
-  resolved "https://registry.npmjs.org/@mikro-orm/cli/-/cli-6.4.13.tgz"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/cli/-/cli-6.4.13.tgz#19b78e5afc6b302d82022cf0778059135d437f27"
   integrity sha512-wE//EkvMRq7yA7/gRFzrk0SUlYdkv3fJEKv3z2c/2T5L9jTPjfXxKGELdnFer8lVyba7k4aEIT86a1WNZZMupg==
   dependencies:
     "@jercle/yargonaut" "1.1.5"

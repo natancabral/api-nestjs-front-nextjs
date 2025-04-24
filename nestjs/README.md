@@ -15,6 +15,9 @@
 - Terminal:
 
 ```sh
+# docker-compose.yml
+$ sudo docker compose up
+
 # UNIX
 $ chmod +x ./setup.sh
 $ chmod +x ./nestjs/setup.sh
@@ -25,6 +28,12 @@ $ chmod -R 777 ./nestjs/setup.sh
 
 # Start
 $ ./setup.sh
+```
+
+### Docker
+```sh
+# docker-compose.yml
+$ sudo docker compose up
 ```
 
 ### Node version

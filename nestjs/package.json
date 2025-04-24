@@ -25,6 +25,8 @@
     "migration:init": "mikro-orm schema:update --run --config ./src/config/database/typeorm.config.ts",
     "migration:init:empty": "mikro-orm schema:refresh --run --config ./src/config/database/typeorm.config.ts",
     "migration:create": "mikro-orm migration:create --config ./src/config/database/typeorm.config.ts",
+    "migration:create:init": "mikro-orm migration:create --initial --config ./src/config/database/typeorm.config.ts",
+    "migration:create:init:npx": "npx mikro-orm migration:create --initial --config ./src/config/database/typeorm.config.ts",
     "migration:down": "mikro-orm migration:down --config ./src/config/database/typeorm.config.ts",
     "migration:up": "mikro-orm migration:up --config ./src/config/database/typeorm.config.ts"
   },
