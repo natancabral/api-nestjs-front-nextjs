@@ -39,12 +39,14 @@ $ nvm use
 
 ```sh
 # Backend
-cd ./nestjs
-yarn start:debug
+$ cd ./nestjs
+$ yarn
+$ yarn start:debug
 
 # FrontEnd
-cd ./nextjs
-yarn dev
+$ cd ./nextjs
+$ yarn
+$ yarn dev
 ```
 
 ### Front end
