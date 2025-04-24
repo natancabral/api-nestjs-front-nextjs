@@ -16,15 +16,15 @@
 
 ```sh
 # UNIX
-$ chmod +x ./setup.sh
-$ chmod +x ./nestjs/setup.sh
+$ sudo chmod +x ./setup.sh
+$ sudo chmod +x ./nestjs/setup.sh
 
 # MacOS
-$ chmod -R 777 ./setup.sh
-$ chmod -R 777 ./nestjs/setup.sh
+$ sudo chmod -R 777 ./setup.sh
+$ sudo chmod -R 777 ./nestjs/setup.sh
 
 # Start
-$ ./setup.sh
+$ sudo ./setup.sh
 ```
 
 ### Node version
