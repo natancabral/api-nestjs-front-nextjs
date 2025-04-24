@@ -15,8 +15,9 @@
 - Terminal:
 
 ```sh
-# docker-compose.yml
-$ sudo docker compose up
+# install docker, compose, io
+  # docker-compose.yml
+$ docker compose up
 
 # UNIX
 $ sudo chmod +x ./setup.sh
@@ -33,6 +34,7 @@ $ ./setup.sh
 
 ### Docker
 ```sh
+# install docker, compose, io
 # docker-compose.yml
 $ sudo docker compose up
 ```
