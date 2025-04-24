@@ -27,7 +27,8 @@ $ sudo chmod -R 777 ./setup.sh
 $ sudo chmod -R 777 ./nestjs/setup.sh
 
 # Start
-$ sudo ./setup.sh
+$ cd ./nestjs
+$ ./setup.sh
 ```
 
 ### Docker
@@ -40,9 +41,9 @@ $ sudo docker compose up
 
 ```sh
 # .nvmrc file
+$ cd ./nestjs
 $ nvm use
 ```
-
 
 ### Start
 
